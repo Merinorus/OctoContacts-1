@@ -10,6 +10,7 @@ public class UtilisateurBDD {
 	public static final String COL_NOM = "Nom";
 	// COUCOU
 	//test
+	// Coucou la famille
 	private SQLiteDatabase bdd;
 	
 	private BaseDonnee maBaseSQLite;
