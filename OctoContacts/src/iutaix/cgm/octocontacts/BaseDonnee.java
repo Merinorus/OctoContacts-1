@@ -1,4 +1,4 @@
-package com.example.aixproject;
+package iutaix.cgm.octocontacts;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
