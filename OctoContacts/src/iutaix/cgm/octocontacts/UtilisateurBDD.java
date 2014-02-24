@@ -11,6 +11,7 @@ public class UtilisateurBDD {
 	// COUCOU
 	//test
 	// Coucou la famille
+	// Gestion de conflits
 	private SQLiteDatabase bdd;
 	
 	private BaseDonnee maBaseSQLite;
