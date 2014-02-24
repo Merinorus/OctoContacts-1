@@ -9,7 +9,9 @@ public class UtilisateurBDD {
 	public static final String COL_PRENOM = "Prenom";
 	public static final String COL_NOM = "Nom";
 	// COUCOU
-	
+	//test
+	// Coucou la famille
+	// Gestion de conflits
 	private SQLiteDatabase bdd;
 	
 	private BaseDonnee maBaseSQLite;
