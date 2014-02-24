@@ -8,6 +8,7 @@ public class UtilisateurBDD {
 	public static final String COL_ID = "UtilisateurId";
 	public static final String COL_PRENOM = "Prenom";
 	public static final String COL_NOM = "Nom";
+	// COUCOU
 	
 	private SQLiteDatabase bdd;
 	
