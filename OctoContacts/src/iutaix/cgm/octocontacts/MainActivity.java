@@ -32,13 +32,13 @@ public class MainActivity extends FragmentActivity {
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	ViewPager mViewPager;
-
+// Coucou
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		// Cela vire l'icone en haut à gauche
+		// Cela vire l'icone en haut ï¿½ gauche
 		//View homeIcon = findViewById(android.R.id.home);
 		//((View) homeIcon.getParent()).setVisibility(View.GONE);
 
