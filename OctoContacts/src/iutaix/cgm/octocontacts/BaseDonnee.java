@@ -17,7 +17,7 @@ public class BaseDonnee extends SQLiteOpenHelper {
 	public BaseDonnee(Context context) {
 	super(context, NOM_BDD, null, VERSION_BDD );
 	}
-	
+	//TEST
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 	db.execSQL(CREATE_BDD);
