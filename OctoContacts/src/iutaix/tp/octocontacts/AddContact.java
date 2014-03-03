@@ -1,6 +1,10 @@
-package com.example.aixproject;
+package iutaix.tp.octocontacts;
 
+import iutaix.tp.octocontacts.R;
+
+import android.os.Build;
 import android.os.Bundle;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +32,7 @@ public class AddContact extends Activity {
 	/**
 	 * Set up the {@link android.app.ActionBar}.
 	 */
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	private void setupActionBar() {
 
 		getActionBar().setDisplayHomeAsUpEnabled(true);

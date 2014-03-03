@@ -1,6 +1,8 @@
-package com.example.aixproject;
+package iutaix.tp.octocontacts;
 
 import java.util.Locale;
+
+import iutaix.tp.octocontacts.R;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aixproject"
+    package="iutaix.tp.octocontacts"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.aixproject.MainActivity"
+            android:name="iutaix.tp.octocontacts.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,12 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.aixproject.AddContact"
+            android:name="iutaix.tp.octocontacts.AddContact"
             android:label="@string/title_activity_add_contact"
-            android:parentActivityName="com.example.aixproject.MainActivity" >
+            android:parentActivityName="iutaix.tp.octocontacts.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.aixproject.MainActivity" />
+                android:value="iutaix.tp.octocontacts.MainActivity" />
         </activity>
     </application>
 
